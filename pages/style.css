@@ -1,0 +1,25 @@
+body{
+    align-items: center;
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    font-size: 18px;
+}
+
+li:hover {
+    transform: scale(105%);
+    transition: 400ms;
+}
+
+li:not(hover) {
+    transform: scale(100%);
+    transition: 100ms;
+}
